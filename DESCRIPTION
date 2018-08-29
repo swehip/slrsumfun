@@ -1,0 +1,13 @@
+Package: shprsumfun
+Type: Package
+Title: R functions for SHPR summary tables
+Version: 0.1.0
+Author: Daniel Odin <daniel.odin@gmail.com>
+Maintainer: Daniel Odin <daniel.odin@gmail.com>
+Description: Several functions used to get fast access to SHPR data,
+    but only works if you actually have access to the data
+    and the package is only relevant for people working for SHPR.
+Encoding: UTF-8
+Imports: dplyr, lubridate, xlsx
+LazyData: true
+RoxygenNote: 6.0.1

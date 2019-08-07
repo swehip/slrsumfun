@@ -8,6 +8,6 @@ Description: Several functions used to get fast access to SHPR data,
     but only works if you actually have access to the data
     and the package is only relevant for people working for SHPR.
 Encoding: UTF-8
-Imports: dplyr, lubridate, xlsx
+Imports: dplyr, lubridate, writexl
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1

@@ -1,13 +1,20 @@
-Package: shprsumfun
+Package: slrsumfun
 Type: Package
-Title: R functions for SHPR summary tables
+Title: R functions for SLR summary tables
 Version: 0.1.0
 Author: Daniel Odin <daniel.odin@gmail.com>
 Maintainer: Daniel Odin <daniel.odin@gmail.com>
-Description: Several functions used to get fast access to SHPR data,
+Description: Several functions used to get fast access to SLR data,
     but only works if you actually have access to the data
-    and the package is only relevant for people working for SHPR.
+    and the package is only relevant for people working for SLR.
 Encoding: UTF-8
-Imports: dplyr, lubridate, writexl
+Imports: 
+    dplyr,
+    haven,
+    lubridate,
+    magrittr,
+    tidyr,
+    writexl
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2
+License: MIT + file LICENSE

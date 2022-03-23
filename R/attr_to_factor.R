@@ -8,8 +8,6 @@
 #' attr(df$cars, "map") <- data.frame(levels = 1:3, labels = c("Volvo", "Saab", "Opel"))
 #' attr_to_factor(df$cars)
 #' @export
-
-
 attr_to_factor <- function(x){
 
   x <- factor(x,

@@ -4,8 +4,7 @@
 \alias{save_xlsx}
 \title{New xlsx saver}
 \usage{
-save_xlsx(file, ..., row_names = FALSE, col_names = TRUE,
-  bold = TRUE)
+save_xlsx(file, ..., row_names = FALSE, col_names = TRUE, bold = TRUE)
 }
 \arguments{
 \item{file}{Filename.}
